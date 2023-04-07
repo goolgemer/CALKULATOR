@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="calk" id="calk">
+            <div class="screen_calk">
+                <div class="header__screen_calk">
+                    <button class="header_element night" onclick="changer();"></button>
+                    <div class="header_group">
+                    <button class="header_element convert"></button>
+                    <button class="header_element three-dot"></button>
+                    </div>
+                </div>
+                <div class="result" id="resultt"></div>
+                <div class="footer__screen_calk">
+                    <div class="footer_group">
+                    <button class="footer_element history"></button>
+                    <button class="footer_element mode"></button>
+                </div>
+                    <button class="footer_element delete" onclick="del()"></button>
+                    
+                </div>
+            </div>
+            <div class="buttons">
+                <button onclick="cleaner()" class="button shadow-longer">C</button>
+                <button  onclick="ths(this.innerHTML);" class="button shadow-longer">(</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">)</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">/</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">7</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">8</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">9</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">*</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">4</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">5</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">6</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">-</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">1</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">2</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">3</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">+</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">%</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">0</button>
+                <button onclick="ths(this.innerHTML);" class="button shadow-longer">.</button>
+                <button onclick="final(result.innerHTML);" class="button shadow-longer">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
