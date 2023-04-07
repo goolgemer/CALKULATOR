@@ -60,14 +60,14 @@ grid-row-gap: 0px;
 }
 
 .night{
-    background-image: url('/CALKULATOR2/image/Vector.svg');
+    background-image: url('./image/Vector.svg');
 }
 .convert{
-    background-image: url('/CALKULATOR2/image/humbleicons_exchange-horizontal.svg');
+    background-image: url('./image/humbleicons_exchange-horizontal.svg');
 }
 
 .three-dot{
-    background-image: url('/CALKULATOR2/image/bi_three-dots.svg');
+    background-image: url('./image/bi_three-dots.svg');
 }
 
 
@@ -127,15 +127,15 @@ margin-bottom: 55px;
 }
 
 .history{
-background-image: url('/CALKULATOR2/image/fluent_history-24-regular.svg');
+background-image: url('./image/fluent_history-24-regular.svg');
 }
 
 .mode{
-    background-image: url('/CALKULATOR2/image/Group\ 6.svg');
+    background-image: url('./image/Group\ 6.svg');
 }
 
 .delete{
- background-image: url('/CALKULATOR2/image/lucide_delete.svg');
+ background-image: url('./image/lucide_delete.svg');
 }
 
 .buttons{
@@ -192,4 +192,4 @@ color: #ffffff93;
   .change_back{
 background-color: #ffffff;
 color: black;
-  }
+}
